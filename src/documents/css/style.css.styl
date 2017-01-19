@@ -389,7 +389,21 @@ body {
         }
     }
 
-    .fluid-web-showcase-learner-options { background: url('../images/floe-uio.jpg') no-repeat; }
+    .fluid-web-showcase-learner-options {
+        // background: url('../images/uio-sample.png') no-repeat;
+        background: #F1D92A;
+        overflow: hidden;
+
+        img {
+            width: 130%;
+            transform: skewX(5deg) skewY(5deg);
+            filter: opacity(0.3);
+            position: relative;
+            top: -0.7rem;
+            left: -0.6rem;
+        }
+    };
+    // .fluid-web-showcase-learner-options { background: url('../images/floe-uio.jpg') no-repeat; }
     .fluid-web-showcase-metadata        { background: url('../images/floe-metadata.jpg') no-repeat; }
     .fluid-web-showcase-videoplayer     { background: url('../images/floe-videoplayer.jpg') no-repeat; }
     .fluid-web-showcase-feedback-tool {

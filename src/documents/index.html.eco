@@ -28,6 +28,7 @@ isPage: true
 
         <div class="small-12 medium-6 columns fluid-web-showcase-column-left">
             <div class="fluid-web-showcase-item fluid-web-showcase-learner-options fluid-web-group">
+                <img src="../images/uio-sample.png">
                 <span class="small-10 columns fluid-web-project-description">
                     <a href="http://build.fluidproject.org/infusion/demos/prefsFramework/"><span class="fluid-web-showcase-item-text">Learner Options Demo<span class="fluid-web-external-link" role="presentation"></span></span></a>
                 </span>
